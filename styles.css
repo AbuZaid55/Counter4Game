@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: repeat(6, 70px);
+    align-items: center;
+    background-color: #ECEFF1;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  
+  .board div {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .message {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .reset-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #45a049;
+  }
+  
